@@ -24,8 +24,9 @@ Total: 3 × 3 × 4 = 36 augmented samples per original image.
 
 ## Installation
 
-```bash
+bash
 pip install -r requirements.txt
+
 
 ## Usage
 
