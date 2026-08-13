@@ -31,9 +31,9 @@ pip install -r requirements.txt
 1. Place your image and LabelMe JSON file in the same directory
 2. Update the paths in mdagt_pipeline.py:
 
-INPUT_IMAGE = "./example/image.jpg"
-INPUT_JSON = "./example/image.json"
-OUTPUT_DIR = "./mdagt_augmented"
+- INPUT_IMAGE = "./image.jpg"
+- INPUT_JSON = "./image.json"
+- OUTPUT_DIR = "./mdagt_augmented"
 
 3. Run the script:
 
