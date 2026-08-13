@@ -2,9 +2,9 @@
 
 This repository contains the code for the data augmentation pipeline used in:
 
-"Automatic segmentation of the ribeye area in *Bos indicus* and *Bos taurus* cattle enhanced by symmetry and homothety-based data augmentation"
+> "Automatic segmentation of the ribeye area in Bos indicus and Bos taurus cattle enhanced by symmetry and homothety-based data augmentation"
 
-*Journal of Animal Science, 2026*
+Journal of Animal Science, 2026
 
 ## Description
 
@@ -24,16 +24,33 @@ Total: 3 × 3 × 4 = 36 augmented samples per original image.
 
 ## Installation
 
-bash
 pip install -r requirements.txt
-
 
 ## Usage
 
 1. Place your image and LabelMe JSON file in the same directory
-2. Update the paths in `mdagt_pipeline.py`:
+2. Update the paths in mdagt_pipeline.py:
 
-```python
 INPUT_IMAGE = "./example/image.jpg"
 INPUT_JSON = "./example/image.json"
 OUTPUT_DIR = "./mdagt_augmented"
+
+3. Run the script:
+
+python mdagt_pipeline.py
+
+## Output
+
+The script generates:
+- 36 augmented images (JPG format)
+- 36 corresponding LabelMe JSON files
+
+## Citation
+
+If you use this code in your research, please cite:
+
+[Your article citation]
+
+## License
+
+MIT License
