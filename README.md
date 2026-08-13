@@ -26,3 +26,13 @@ Total: 3 × 3 × 4 = 36 augmented samples per original image.
 
 ```bash
 pip install -r requirements.txt
+
+## Usage
+
+1. Place your image and LabelMe JSON file in the same directory
+2. Update the paths in `mdagt_pipeline.py`:
+
+```python
+INPUT_IMAGE = "./example/image.jpg"
+INPUT_JSON = "./example/image.json"
+OUTPUT_DIR = "./mdagt_augmented"
